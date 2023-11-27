@@ -3,7 +3,9 @@ from django.shortcuts import render
 
 
 def home(request):
-    return HttpResponse('<h1>Home</h1>')
+    return render(request, 'recipes/home.html', context={
+        'name': 'Gomide'
+    })
 
 def contato(request):
     return HttpResponse('<h1>Meus Contatos</h1>')
