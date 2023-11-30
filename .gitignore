@@ -67,7 +67,6 @@ venv.bak/
 # Personal additions
 __pycache__/
 *.pyc
-__localcode
 venv
 env
 .DS_Store
